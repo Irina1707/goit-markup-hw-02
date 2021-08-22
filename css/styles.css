@@ -9,6 +9,7 @@
   --contacts-color: rgba(255, 255, 255, 0.6);
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --accent-hero-color: #188ce8;
 }
 body {
   background-color: var(--primary-white-color);
@@ -57,7 +58,7 @@ a {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -75,7 +76,7 @@ a {
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -92,8 +93,12 @@ a {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
+}
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--accent-hero-color);
 }
 /*Преимущества*/
 .title {
@@ -114,6 +119,12 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.advantage-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 
 /*Чем мы занимаемся*/
 
@@ -126,13 +137,13 @@ a {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .profession {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 /*footer*/
@@ -145,7 +156,7 @@ footer {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .address {
@@ -157,7 +168,7 @@ footer {
   letter-spacing: 0.03em;
 }
 .footer-contacts .contacts-secondary {
-  color: var(--primary-white-color);
+  color: var(--contacts-color);
 }
 
 .footer-contacts .contacts-secondary:hover,
